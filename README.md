@@ -7,6 +7,6 @@ Once had experience to work with ionic project, and my boss gave me iphone, befo
 
 Unlock phone, inside menu, drag to bottom, on the top searchbar appers, and everything turns blur, so in the demo below try to do the same, and enjoy :)
 
-[Demo](http://plnkr.co/edit/yHvkgCoTSwsOox85Hciw?p=preview)
+[Demo](http://plnkr.co/edit/tUskuLkHzvI5o0fhPA3b?p=preview)
 
 MIT, feel free to contribute, suggest, play, applause =)
