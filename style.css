@@ -1,0 +1,60 @@
+/* Styles go here */
+
+body{
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:lightblue;
+}
+.iphone{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none; 
+  height: 600px;
+  width: 100%;
+  background-size: 80px 60px;
+  background-repeat: no-repeat;
+  background: url('http://www.iclarified.com/images/tutorials/34048/141588/141588.png');
+}
+.blur{
+  -moz-filter: blur(7px);
+  -ms-filter: blur(7px);
+  -webkit-filter: blur(7px); 
+  filter: blur(7px);
+  transition: all .5s ease;
+}
+.funky{
+  position:absolute;
+  top: -100px;
+  left:0; 
+  z-index: 9999;
+  transition: top .5s ease;
+  width: 60%;
+  padding: 15px;
+  margin: 0 30px;
+  background-color:darkgray;
+  border:none;
+}
+.funky-button{
+  position:absolute;
+  top: -100px;
+  right:0; 
+  z-index: 9999;
+  transition: top .5s ease;
+  width: 30%;
+  padding: 15px;
+  background-color:gray;
+  border:none;
+}
+.funky:focus{
+  border:none;
+  outline:none;
+}
+.funky.open, .funky-button.open{
+  top:10px;
+  transition: top .5s ease;
+}
